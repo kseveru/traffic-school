@@ -1,0 +1,11 @@
+{
+  "name": "traffic-school",
+  "version": "1.0.0",
+  "description": "школа товарного  арбитража трафика Артура Гарнаева",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kseveru <kseveru@yandex.ru>",
+  "license": "ISC"
+}
