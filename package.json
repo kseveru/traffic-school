@@ -1,11 +1,44 @@
 {
   "name": "traffic-school",
   "version": "1.0.0",
-  "description": "школа товарного  арбитража трафика Артура Гарнаева",
+  "description": "Адаптивная верстка",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kseveru <kseveru@yandex.ru>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kseveru/traffic-school.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kseveru/traffic-school/issues"
+  },
+  "homepage": "https://github.com/kseveru/traffic-school#readme",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE 11"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.0.1",
+    "browser-sync": "^2.24.6",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-stylelint": "^7.0.0",
+    "gulp-svgstore": "^6.1.1",
+    "imagemin": "^6.0.0",
+    "postcss-import": "^11.1.0",
+    "stylelint": "^9.4.0",
+    "stylelint-config-htmlacademy": "^0.1.1"
+  },
+  "dependencies": {
+    "pump": "^3.0.0"
+  }
 }

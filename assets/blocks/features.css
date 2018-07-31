@@ -1,0 +1,39 @@
+.features__list {
+  max-width: 214px;
+  margin: auto;
+  padding: 0;
+
+  list-style: none;
+
+  text-align: center;
+}
+
+.features__item {
+  padding-top: 95px;
+
+  line-height: 1.25;
+
+  background: url("blocks/features-icon-quickly.png") 50% 0 no-repeat;
+}
+
+.features__item:not(:first-child) {
+  margin-top: 47px;
+}
+
+.features__item--profession {
+  background-image: url("blocks/features-icon-profession.png");
+}
+
+.features__item--money {
+  background-image: url("blocks/features-icon-money.png");
+}
+
+.features__item-title {
+  display: block;
+  margin-bottom: 10px;
+
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}

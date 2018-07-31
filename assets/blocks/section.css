@@ -1,0 +1,66 @@
+.section {
+  padding: 30px 15px 35px;
+
+  text-align: center;
+}
+
+.section--author {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.section__title {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.section__title--commas {
+  margin-left: -10px;
+}
+
+.section__title-small {
+  display: block;
+  margin-bottom: 10px;
+
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: #f99406;
+}
+
+.section__description {
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.section__text {
+  display: block;
+  margin: 10px 0 0;
+}
+
+.section__picture {
+  display: block;
+  margin: 25px auto 0;
+}
+
+.section__img {
+  display: block;
+  margin: auto;
+}
+
+.section__form {
+  margin-top: 40px;
+}
+
+.section__time-left {
+  margin-top: 12px;
+  margin-left: -10px;
+  margin-right: -10px;
+}

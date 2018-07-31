@@ -1,0 +1,12 @@
+.download {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.download__input {
+  width: 100%;
+}
+
+.download__submit {
+  width: 100%;
+}

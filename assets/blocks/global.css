@@ -1,0 +1,70 @@
+/* VARIABLES
+====================================================================== */
+
+:root {
+  --device-tablet: 750px;
+  --device-desktop: 1170px;
+}
+
+
+/* FONTS
+====================================================================== */
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: local("Roboto Light"), local("Roboto-Light"),
+      url("../fonts/RobotoLight.woff2") format("woff2"),
+      url("../fonts/RobotoLight.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: local("Roboto Regular"), local("Roboto-Regular"),
+      url("../fonts/RobotoRegular.woff2") format("woff2"),
+      url("../fonts/RobotoRegular.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: local("Roboto Black"), local("Roboto-Black"),
+      url("../fonts/RobotoBlack.woff2") format("woff2"),
+      url("../fonts/RobotoBlack.woff") format("woff");
+}
+
+/* GLOBAL
+====================================================================== */
+
+*,
+*::before, *:before,
+*::after, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: auto;
+  padding: 0;
+
+  font: normal 300 16px/1.5 "Roboto", "Helvetica", sans-serif;
+  letter-spacing: 0.05em;
+  color: #bdbdbd;
+
+  background-color: #0b1119;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

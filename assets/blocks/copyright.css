@@ -1,0 +1,10 @@
+.copyright {
+  margin: 0;
+
+  font-size: 12px;
+}
+
+.copyright__name {
+  text-transform: uppercase;
+  color: #f99406;
+}

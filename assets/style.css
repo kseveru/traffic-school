@@ -1,0 +1,29 @@
+@import "blocks/global.css";
+
+@import "blocks/hidden.css";
+
+@import "blocks/content.css";
+
+@import "blocks/section.css";
+
+@import "blocks/video.css";
+
+@import "blocks/download.css";
+
+@import "blocks/input.css";
+
+@import "blocks/button.css";
+
+@import "blocks/features.css";
+
+@import "blocks/author.css";
+
+@import "blocks/about.css";
+
+@import "blocks/bonus.css";
+
+@import "blocks/time-left.css";
+
+@import "blocks/footer.css";
+
+@import "blocks/copyright.css";
