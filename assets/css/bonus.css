@@ -1,7 +1,7 @@
 .bonus {
   padding-top: 70px;
 
-  background: url("blocks/bonus-back.png") 50% 0% no-repeat;
+  background: url("img/bonus-back.png") 50% 0% no-repeat;
 }
 
 .bonus .section__title {

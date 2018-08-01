@@ -13,7 +13,7 @@
 
   line-height: 1.25;
 
-  background: url("blocks/features-icon-quickly.png") 50% 0 no-repeat;
+  background: url("img/features-icon-quickly.png") 50% 0 no-repeat;
 }
 
 .features__item:not(:first-child) {
@@ -21,11 +21,11 @@
 }
 
 .features__item--profession {
-  background-image: url("blocks/features-icon-profession.png");
+  background-image: url("img/features-icon-profession.png");
 }
 
 .features__item--money {
-  background-image: url("blocks/features-icon-money.png");
+  background-image: url("img/features-icon-money.png");
 }
 
 .features__item-title {
