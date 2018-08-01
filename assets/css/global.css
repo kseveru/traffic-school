@@ -1,10 +1,7 @@
-/* VARIABLES
-====================================================================== */
-
-:root {
-  --device-tablet: 750px;
-  --device-desktop: 1170px;
-}
+/*
+  device-tablet: 750px;
+  device-desktop: 1170px;
+*/
 
 
 /* FONTS
@@ -60,6 +57,7 @@ body {
   font: normal 300 16px/1.5 "Roboto", "Helvetica", sans-serif;
   letter-spacing: 0.05em;
   color: #bdbdbd;
+  text-align: center;
 
   background-color: #0b1119;
 }
@@ -67,4 +65,18 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+
+/* TABLET
+====================================================================== */
+
+@media (min-width: 750px) {
+
+  body {
+    text-align: left;
+
+    background: #0b1119 url("img/video-back-tablet.png") top 30px left calc(50% + 215px) no-repeat;
+  }
+
 }

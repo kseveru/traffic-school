@@ -4,8 +4,6 @@
   padding: 0;
 
   list-style: none;
-
-  text-align: center;
 }
 
 .features__item {
@@ -33,7 +31,30 @@
   margin-bottom: 10px;
 
   font-weight: 400;
-  font-size: 16px;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+
+/* TABLET
+====================================================================== */
+
+@media (min-width: 750px) {
+
+  .features__list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+
+  .features__item {
+    width: 30%;
+
+    background-position: 0 0;
+  }
+
+  .features__item:not(:first-child) {
+    margin-top: 0;
+  }
+
 }

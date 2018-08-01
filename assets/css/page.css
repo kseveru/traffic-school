@@ -1,0 +1,21 @@
+.page {
+  max-width: 750px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.page__footer {
+  margin-top: 30px;
+}
+
+
+/* TABLET
+====================================================================== */
+
+@media (min-width: 750px) {
+
+  .page__footer {
+    margin-top: 0;
+  }
+
+}

@@ -1,7 +1,7 @@
 .bonus {
   padding-top: 70px;
 
-  background: url("img/bonus-back.png") 50% 0% no-repeat;
+  background: url("img/bonus-back-mobile.png") 50% 0% no-repeat;
 }
 
 .bonus .section__title {
@@ -19,7 +19,7 @@
 
   width: 201px;
   height: 2px;
-  margin-left: calc(-1 * 201px / 2);
+  margin-left: calc(201px / -2);
 
   background-color: #242930;
 }
@@ -34,4 +34,33 @@
 
 .bonus .section__form {
   margin-top: 30px;
+}
+
+
+/* TABLET
+====================================================================== */
+
+@media (min-width: 750px) {
+
+  .bonus {
+    padding-top: 80px;
+    padding-bottom: 130px;
+
+    text-align: center;
+
+    background: url("img/bonus-back-tablet.png") 50% 0% no-repeat;
+  }
+
+  .bonus .section__title {
+    padding-bottom: 30px;
+  }
+
+  .bonus .section__title-small {
+    margin-top: 12px;
+  }
+
+  .bonus .section__form {
+    width: 570px;
+  }
+
 }

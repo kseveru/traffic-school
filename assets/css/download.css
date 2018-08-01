@@ -10,3 +10,24 @@
 .download__submit {
   width: 100%;
 }
+
+
+/* TABLET
+====================================================================== */
+
+@media (min-width: 750px) {
+
+  .download {
+    flex-wrap: nowrap;
+  }
+
+  .download__input {
+    flex-grow: 1;
+    width: auto;
+  }
+
+  .download__submit {
+    width: 196px;
+  }
+
+}

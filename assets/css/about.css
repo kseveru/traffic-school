@@ -1,7 +1,7 @@
 .about {
   position: relative;
 
-  padding-top: calc(65px + 40px);
+  padding-top: calc(30px + 13px + 30px);
 
   text-align: left;
 }
@@ -12,7 +12,7 @@
 
   position: absolute;
   left: 15px;
-  top: 65px;
+  top: 30px;
 
   width: 70px;
   height: 2px;
@@ -22,7 +22,7 @@
 
 .about:after {
   left: calc(15px + 21px);
-  top: calc(65px + 13px);
+  top: calc(30px + 13px);
 }
 
 .about__list {
@@ -77,4 +77,41 @@
   border-radius: 50%;
 
   box-shadow: 0 0 0 5px #3c4147;
+}
+
+
+/* TABLET
+====================================================================== */
+
+@media (min-width: 750px) {
+
+  .about {
+    padding-top: calc(60px + 13px + 30px);
+  }
+
+  .about:before,
+  .about:after {
+    left: -50px;
+    top: 60px;
+  }
+
+  .about:after {
+    left: calc(-50px + 21px);
+    top: calc(60px + 13px);
+  }
+
+  .about__list {
+    display: grid;
+    grid-template-columns: repeat(2, 280px);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 50px 40px;
+    grid-auto-flow: column;
+    margin-top: 60px;
+    padding-left: 63px;
+  }
+
+  .about__item:not(:first-child) {
+    margin-top: 0;
+  }
+
 }

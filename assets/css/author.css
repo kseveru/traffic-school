@@ -1,18 +1,48 @@
 .author {
-  margin-top: 170px;
-
   background-image: radial-gradient(350px at 75% 180px, rgba(255, 255, 255, 0.09), transparent);
-
-  border: 3px solid #f99406;
 }
 
 .author .section__picture {
-  position: relative;
-
-  margin-top: -170px;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: -97px;
 }
 
-.author .section__description {
-  margin-bottom: 35px;
+
+/* TABLET
+====================================================================== */
+
+@media (min-width: 750px) {
+
+  .author {
+    display: flex;
+    align-items: center;
+
+    background-image: radial-gradient(350px at center 270px,rgba(255,255,255,.09),transparent);
+  }
+
+  .author .section__title {
+    position: relative;
+
+    padding-bottom: 15px;
+  }
+
+  .author .section__title:after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 300px;
+    height: 2px;
+    margin-left: -100px;
+
+    background-color: #242930;
+  }
+
+  .author .section__picture {
+    flex-shrink: 0;
+    margin-bottom: 0;
+  }
+
 }
