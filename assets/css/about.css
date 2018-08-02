@@ -58,7 +58,7 @@
   line-height: 1;
   color: #ffffff;
 
-  opacity: 0.05;
+  opacity: 0.1;
 }
 
 .about__item:after {
@@ -71,12 +71,12 @@
   width: 16px;
   height: 16px;
 
-  background-color: #3c4147;
+  background-color: transparent;
 
   border: 6px solid #ffffff;
   border-radius: 50%;
 
-  box-shadow: 0 0 0 5px #3c4147;
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.2);
 }
 
 
@@ -112,6 +112,126 @@
 
   .about__item:not(:first-child) {
     margin-top: 0;
+  }
+
+}
+
+
+/* DESKTOP
+====================================================================== */
+
+@media (min-width: 1170px) {
+
+  .about {
+    padding-top: calc(90px + 13px + 30px);
+    padding-bottom: 10px;
+  }
+
+  .about:before,
+  .about:after {
+    top: 90px;
+  }
+
+  .about:after {
+    top: calc(90px + 13px);
+  }
+
+  .about .section__title {
+    max-width: 900px;
+  }
+
+  .about__list {
+    position: relative;
+
+    grid-template-columns: 311px 216px 245px 216px 152px;
+    grid-template-rows: 400px;
+    grid-column-gap: 0;
+    margin: 85px -180px 0;
+    padding-left: 180px;
+    padding-right: 180px;
+
+    background: url(img/about-bg-list.svg) calc(50% - 10px) bottom no-repeat;
+
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .about__list:before,
+  .about__list:after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    top: 102px;
+    z-index: -10;
+
+    width: 100%;
+    height: 104px;
+
+    border-top: 2px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .about__list:after {
+    top: calc(102px + 104px);
+
+    border-top: none;
+  }
+
+  .about__item {
+    padding-left: 15px;
+  }
+
+  .about__item:nth-child(1) {
+    margin-top: 153px;
+  }
+
+  .about__item:nth-child(2) {
+    margin-top: 67px;
+  }
+
+  .about__item:nth-child(3) {
+    margin-top: 165px;
+    padding-right: 30px;
+  }
+
+  .about__item:nth-child(4) {
+    margin-top: 68px;
+  }
+
+  .about__item:nth-child(5) {
+    margin-top: 32px;
+  }
+
+  .about__item:before {
+    left: 0;
+  }
+
+  .about__item:after {
+    left: 8px;
+    top: 129px;
+
+    width: 22px;
+    height: 22px;
+
+    border-width: 8px;
+
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+  }
+
+  .about__item:nth-child(2):after {
+    top: 132px;
+  }
+
+  .about__item:nth-child(3):after {
+    top: 144px;
+  }
+
+  .about__item:nth-child(4):after {
+    top: 120px;
+  }
+
+  .about__item:nth-child(5):after {
+    top: 93px;
   }
 
 }

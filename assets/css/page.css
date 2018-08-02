@@ -1,5 +1,5 @@
 .page {
-  max-width: 750px;
+  max-width: 420px;
   margin: auto;
 }
 
@@ -13,8 +13,24 @@
 
 @media (min-width: 750px) {
 
+  .page {
+    max-width: 750px;
+  }
+
   .page__footer {
     margin-top: 0;
+  }
+
+}
+
+
+/* DESKTOP
+====================================================================== */
+
+@media (min-width: 1170px) {
+
+  .page {
+    max-width: 1170px;
   }
 
 }

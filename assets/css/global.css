@@ -76,7 +76,22 @@ img {
   body {
     text-align: left;
 
-    background: #0b1119 url("img/video-back-tablet.png") top 30px left calc(50% + 215px) no-repeat;
+    background: #0b1119 url("img/video-bg-tablet.png") top 30px left calc(50% + 215px) no-repeat;
+  }
+
+}
+
+
+/* DESKTOP
+====================================================================== */
+
+@media (min-width: 1170px) {
+
+  body {
+    font-size: 18px;
+    line-height: 1.3;
+
+    background: #0b1119 url("img/video-bg-desktop.png") top 0 left calc(50% + 335px) no-repeat;
   }
 
 }

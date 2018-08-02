@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="1500" height="379">
+  <defs>
+    <linearGradient id="grad" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="rgb(179,94,2)" stop-opacity="1" />
+      <stop offset="100%" stop-color="rgb(249,148,6)" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <path stroke="url(#grad)" stroke-width="2" fill="none"
+   d="M1.876,349.614 C1.876,349.614 130.614,157.337 272.000,326.000 C354.558,424.486 408.459,353.075 452.388,277.000 C527.445,147.017 577.549,141.556 674.453,247.988 C747.351,328.053 863.750,377.400 976.000,186.000 C976.000,186.000 1035.188,62.156 1204.000,117.000 C1328.860,157.565 1539.000,1.000 1539.000,1.000 "/>
+</svg>

@@ -1,5 +1,5 @@
 .video {
-  background: url("img/video-back-mobile.png") 50% 50% no-repeat;
+  background: url("img/video-bg-mobile.png") 50% 50% no-repeat;
 }
 
 
@@ -22,6 +22,23 @@
     top: 80px;
 
     margin: 0;
+  }
+
+}
+
+
+/* DESKTOP
+====================================================================== */
+
+@media (min-width: 1170px) {
+
+  .video {
+    min-height: calc(50px + 456px + 50px);
+    padding-right: calc(15px + 477px + 95px);
+  }
+
+  .video .section__picture {
+    top: 50px;
   }
 
 }
