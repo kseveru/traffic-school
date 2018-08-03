@@ -2,10 +2,9 @@
 
 [kseveru.github.io/traffic-school](https://kseveru.github.io/traffic-school/ "Открыть проект")
 
-**Верстка**: адаптивная
-**Страниц**: landing page
-**Макет**: &ndash; (если знаете, напишите мне, пожалуйста)
-
+**Верстка**: адаптивная  
+**Страниц**: landing page  
+**Макет**: &ndash; (если знаете, напишите мне, пожалуйста)  
 <table>
   <tr>
     <td>Мобильный</td>
