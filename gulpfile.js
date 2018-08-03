@@ -6,8 +6,9 @@ var svgmin = require('gulp-svgmin');
 var htmlmin = require('gulp-htmlmin');
 //var gulpStylelint = require('gulp-stylelint');
 var postcss = require('gulp-postcss');
-var atImport = require("postcss-import");
+var atImport = require('postcss-import');
 var autoprefixer = require('autoprefixer');
+var gcmq = require('gulp-group-css-media-queries');
 var cssmin = require('gulp-csso');
 var pump = require('pump');
 var rename = require("gulp-rename");
@@ -47,6 +48,7 @@ gulp.task('html', function() {
 gulp.task('style', function () {
   return gulp.src('assets/style.css')
     .pipe(postcss([ atImport(), autoprefixer({grid: true}) ]))
+    .pipe(gcmq())
     .pipe(cssmin())
     .pipe(gulp.dest('docs'));
 });
