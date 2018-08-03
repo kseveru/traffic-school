@@ -19,13 +19,13 @@
       </a>
     </td>
     <td>
-      <a href="https://kseveru.github.io/img/preview-traffic-school-tablet.jpg" title="Открыть макет">
+      <a href="https://kseveru.github.io/img/preview-traffic-school-tablet.png" title="Открыть макет">
         <img src="https://kseveru.github.io/img/preview-traffic-school-tablet--small.png">
       </a>
     </td>
     <td>
       <a href="https://kseveru.github.io/img/preview-traffic-school-desktop.jpg" title="Открыть макет">
-        <img src="https://kseveru.github.io/img/preview-traffic-school-desktop--small.png">
+        <img src="https://kseveru.github.io/img/preview-traffic-school-desktop--small.jpg">
       </a>
     </td>
   </tr>
