@@ -2,6 +2,7 @@
 
 var gulp = require('gulp');
 var del = require('del');
+var svgmin = require('gulp-svgmin');
 var htmlmin = require('gulp-htmlmin');
 //var gulpStylelint = require('gulp-stylelint');
 var postcss = require('gulp-postcss');
@@ -9,7 +10,6 @@ var atImport = require("postcss-import");
 var autoprefixer = require('autoprefixer');
 var cssmin = require('gulp-csso');
 var pump = require('pump');
-var svgmin = require('gulp-svgmin');
 var rename = require("gulp-rename");
 var browserSync = require("browser-sync").create();
 
