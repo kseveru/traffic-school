@@ -13,8 +13,8 @@
   font-style: normal;
   font-display: swap;
   src: local("Roboto Light"), local("Roboto-Light"),
-      url("../fonts/RobotoLight.woff2") format("woff2"),
-      url("../fonts/RobotoLight.woff") format("woff");
+      url("fonts/RobotoLight.woff2") format("woff2"),
+      url("fonts/RobotoLight.woff") format("woff");
 }
 @font-face {
   font-family: "Roboto";
@@ -22,8 +22,8 @@
   font-style: normal;
   font-display: swap;
   src: local("Roboto Regular"), local("Roboto-Regular"),
-      url("../fonts/RobotoRegular.woff2") format("woff2"),
-      url("../fonts/RobotoRegular.woff") format("woff");
+      url("fonts/RobotoRegular.woff2") format("woff2"),
+      url("fonts/RobotoRegular.woff") format("woff");
 }
 @font-face {
   font-family: "Roboto";
@@ -31,8 +31,8 @@
   font-style: normal;
   font-display: swap;
   src: local("Roboto Black"), local("Roboto-Black"),
-      url("../fonts/RobotoBlack.woff2") format("woff2"),
-      url("../fonts/RobotoBlack.woff") format("woff");
+      url("fonts/RobotoBlack.woff2") format("woff2"),
+      url("fonts/RobotoBlack.woff") format("woff");
 }
 
 /* GLOBAL
