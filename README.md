@@ -1,4 +1,4 @@
-# traffic-school #
+# Traffic-school #
 
 [kseveru.github.io/traffic-school](https://kseveru.github.io/traffic-school/ "Открыть проект")
 
