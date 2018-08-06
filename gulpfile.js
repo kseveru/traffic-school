@@ -11,7 +11,6 @@ var autoprefixer = require('autoprefixer');
 var gcmq = require('gulp-group-css-media-queries');
 var cssmin = require('gulp-csso');
 var pump = require('pump');
-var rename = require("gulp-rename");
 var browserSync = require("browser-sync").create();
 
 gulp.task('clean', function () {

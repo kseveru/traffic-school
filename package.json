@@ -30,7 +30,6 @@
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-htmlmin": "^4.0.0",
     "gulp-postcss": "^7.0.1",
-    "gulp-rename": "^1.4.0",
     "gulp-stylelint": "^7.0.0",
     "gulp-svgmin": "^1.2.4",
     "imagemin": "^6.0.0",
