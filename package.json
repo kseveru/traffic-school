@@ -37,7 +37,5 @@
     "stylelint": "^9.4.0",
     "stylelint-config-htmlacademy": "^0.1.1"
   },
-  "dependencies": {
-    "pump": "^3.0.0"
-  }
+  "dependencies": {}
 }

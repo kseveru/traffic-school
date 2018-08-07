@@ -10,8 +10,7 @@ var atImport = require('postcss-import');
 var autoprefixer = require('autoprefixer');
 var gcmq = require('gulp-group-css-media-queries');
 var cssmin = require('gulp-csso');
-var pump = require('pump');
-var browserSync = require("browser-sync").create();
+var browserSync = require('browser-sync').create();
 
 gulp.task('clean', function () {
   return del('docs');
